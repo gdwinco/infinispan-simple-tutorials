@@ -16,6 +16,7 @@ public class InfinispanMap {
       System.out.printf("key1 = %s\n", cache.get("key1"));
       // Stop the cache manager and release all resources
       cacheManager.stop();
+      
    }
 
 }
